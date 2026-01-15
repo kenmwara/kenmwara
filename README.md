@@ -18,6 +18,12 @@
 - <b>Python</b>
   - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
 
+<h2>👨‍💻 AI Agent Development Projects:</h2>
+
+- <b>Automated Video Generator Projecr on n8n, using anthropic and claude sonnet4  (AlgoExpert)</b>
+  - [Automated video generator triggered via a scheduled timer on n8n, using anthropic and claude sonnet4.
+](https://github.com/kenmwara/n8n_anthropic_claudesonnet4/blob/main/README.md)
+
 
 
 <h2> 🤳 Connect with me:</h2>
