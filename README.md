@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/ken-github-banner.png" alt="Ken Mwara — solo operator. Six products. One stack." width="100%">
+</p>
+
 <!-- Goes at github.com/kenmwara/kenmwara/README.md -->
 
 ### Hi, I'm Ken 👋
