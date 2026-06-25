@@ -1,6 +1,8 @@
 <!-- Goes at github.com/kenmwara/kenmwara/README.md -->
 <img width="1500" height="500" alt="GitHub-Banner-TBOT" src="https://github.com/user-attachments/assets/a4fdfac7-f512-409d-ba61-76cb60c202c3" />
 
+<img width="1500" height="500" alt="GitHub-Banner-OddsEdge" src="https://github.com/user-attachments/assets/33d5474e-317a-4f39-9a9d-7bc6a0669ea4" />
+
 ### Hi, I'm Ken 👋
 
 Solo operator running a seven-product portfolio out of Vancouver, BC. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, payments, content, analytics, customer ops.
