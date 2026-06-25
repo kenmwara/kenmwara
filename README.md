@@ -58,4 +58,4 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 [LinkedIn](https://linkedin.com/in/kenmwara) &nbsp;·&nbsp; [X](https://x.com/Ken_Mwara) &nbsp;·&nbsp; [YouTube](https://youtube.com/@kenmwara3955) &nbsp;·&nbsp; Vancouver, BC
 
-Open to interesting conversations — algo trading, multi-tenant signal delivery, Cloudflare-native ops architecture, or how to run six products as a solo operator without losing your mind.
+Open to interesting conversations — algo trading, multi-tenant signal delivery, Cloudflare-native ops architecture, or how to run seven products as a solo operator without losing your mind.
