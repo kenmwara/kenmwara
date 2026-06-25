@@ -1,4 +1,5 @@
 <!-- Goes at github.com/kenmwara/kenmwara/README.md -->
+<img width="1500" height="500" alt="GitHub-Banner-TBOT" src="https://github.com/user-attachments/assets/a4fdfac7-f512-409d-ba61-76cb60c202c3" />
 
 ### Hi, I'm Ken 👋
 
