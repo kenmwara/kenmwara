@@ -1,12 +1,8 @@
-<p align="center">
-  <img src="./assets/ken-github-banner.png" alt="Ken Mwara — solo operator. Six products. One stack." width="100%">
-</p>
-
 <!-- Goes at github.com/kenmwara/kenmwara/README.md -->
 
 ### Hi, I'm Ken 👋
 
-Solo operator running a six-product portfolio out of Vancouver, BC. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, payments, content, analytics, customer ops.
+Solo operator running a seven-product portfolio out of Vancouver, BC. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, payments, content, analytics, customer ops.
 
 Most of what I work on makes money rather than stars, so my public footprint is selective. The repos below are showcases — architecture, decisions, and screenshots — without the moats (strategy logic, conversion copy, customer lists).
 
@@ -16,9 +12,11 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 **[T BOT](https://github.com/kenmwara/tbot)** &mdash; multi-surface algorithmic trading system covering Kalshi prediction markets, OANDA forex, and IBKR equities. AI prediction pipeline (Claude / GPT / Gemini ensemble), 10-gate risk chain, subscriber signal-feed architecture. Live demo: [tbot.trade/demo](https://tbot.trade/demo).
 
-**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, four products, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store. The platform every other product reports into.
+**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, five products, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store. The platform every other product reports into.
 
 **[tbot-client](https://github.com/kenmwara/tbot-client)** &mdash; open-source Python client that runs on subscriber machines. Polls the operator signal feed, applies local size config, places orders against the subscriber's own broker. Operator never touches subscriber funds.
+
+**[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
 
 **[Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery)** &mdash; $497 CAD info product helping skilled workers navigate the Canadian permanent residency process. Cloudflare Pages, Stripe, quiz-driven autoresponder Worker.
 
