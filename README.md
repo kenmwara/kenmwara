@@ -1,5 +1,4 @@
 <!-- Goes at github.com/kenmwara/kenmwara/README.md -->
-<img width="1500" height="500" alt="GitHub-Banner-TBOT" src="https://github.com/user-attachments/assets/a4fdfac7-f512-409d-ba61-76cb60c202c3" />
 
 ### Hi, I'm Ken 👋
 
@@ -25,7 +24,7 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 **[Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint)** &mdash; $97 fitness funnel for 9-to-5 workers. Landing page, Stripe checkout, 5-episode video sequence, YouTube remarketing.
 
-**[Maasai Moran content pipeline](https://github.com/kenmwara/maasai-moran-pipeline)** &mdash; automated YouTube generation + analytics for a long-form storytelling channel. Python orchestration, PM2 supervision, custom analytics dashboard.
+**[Maasai Explained — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; multi-channel autonomous documentary studio (Maasai Explained + The Collapse Files): evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, measured multi-model supply chain (Gemini Omni Flash, nano-banana-2, Veo 3).
 
 **[n8n × Claude Sonnet pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4)** &mdash; scheduled video-generation pipeline orchestrated through n8n with Anthropic Claude Sonnet 4 as the reasoning model.
 
