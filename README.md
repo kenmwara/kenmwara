@@ -18,13 +18,13 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 **[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
 
+**[Maasai Explained — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; multi-channel autonomous documentary studio (Maasai Explained + The Collapse Files): evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, measured multi-model supply chain (Gemini Omni Flash, nano-banana-2, Veo 3).
+
 **[Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery)** &mdash; $497 CAD info product helping skilled workers navigate the Canadian permanent residency process. Cloudflare Pages, Stripe, quiz-driven autoresponder Worker.
 
 **[The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint)** &mdash; info product on career and life reinvention. Cloudflare Pages + Resend sequencing + Workers-based lead capture.
 
 **[Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint)** &mdash; $97 fitness funnel for 9-to-5 workers. Landing page, Stripe checkout, 5-episode video sequence, YouTube remarketing.
-
-**[Maasai Explained — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; multi-channel autonomous documentary studio (Maasai Explained + The Collapse Files): evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, measured multi-model supply chain (Gemini Omni Flash, nano-banana-2, Veo 3).
 
 **[n8n × Claude Sonnet pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4)** &mdash; scheduled video-generation pipeline orchestrated through n8n with Anthropic Claude Sonnet 4 as the reasoning model.
 
