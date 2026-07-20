@@ -10,11 +10,11 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ### 🚀 What I'm operating
 
-**[T BOT](https://github.com/kenmwara/tbot)** &mdash; multi-surface algorithmic trading system covering Kalshi prediction markets, OANDA forex, and IBKR equities. AI prediction pipeline (Claude / GPT / Gemini ensemble), 10-gate risk chain, subscriber signal-feed architecture. Live demo: [tbot.trade/demo](https://tbot.trade/demo).
+**[T BOT](https://github.com/kenmwara/tbot)** &mdash; multi-surface algorithmic trading platform on Kalshi prediction markets — live ST weather surface plus macro/equities/crypto lanes in paper validation (surfaces earn live capital by proving an edge; forex was retired on evidence in June 2026). AI prediction pipeline (Claude ensemble), 10-gate risk chain, copy-trade subscriber pilot with Stripe billing. Live demo: [tbot.trade/demo](https://tbot.trade/demo).
 
-**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, five products, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store. The platform every other product reports into.
+**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, six products, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store. The platform every other product reports into.
 
-**[tbot-client](https://github.com/kenmwara/tbot-client)** &mdash; open-source Python client that runs on subscriber machines. Polls the operator signal feed, applies local size config, places orders against the subscriber's own broker. Operator never touches subscriber funds.
+**[tbot-client](https://github.com/kenmwara/tbot-client)** &mdash; open-source Python client that runs on subscriber machines and places orders against the subscriber's own broker (the original signal-feed model; the live pilot now runs a server-side copy-trade engine with encrypted per-subscriber API keys).
 
 **[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
 
