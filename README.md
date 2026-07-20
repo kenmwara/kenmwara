@@ -20,6 +20,8 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 **[Maasai Explained — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; multi-channel autonomous documentary studio (Maasai Explained + The Collapse Files): evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, measured multi-model supply chain (Gemini Omni Flash, nano-banana-2, Veo 3).
 
+**JobScout** &mdash; autonomous job-search pipeline: six sources swept daily (~1,100+ postings), rubric-scored fit, auto-apply with a Telegram approval gate, and Gmail ingestion that tracks replies and captures manual applications into the same ledger. Private — it applies to jobs as me.
+
 **[Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery)** &mdash; $497 CAD info product helping skilled workers navigate the Canadian permanent residency process. Cloudflare Pages, Stripe, quiz-driven autoresponder Worker.
 
 **[The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint)** &mdash; info product on career and life reinvention. Cloudflare Pages + Resend sequencing + Workers-based lead capture.
