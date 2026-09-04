@@ -3,7 +3,7 @@
 
 ### Hi, I'm Ken 👋
 
-Solo operator running a multi-product portfolio out of Vancouver, BC — plus a small web studio for client sites. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, native mobile, payments, content, analytics, customer ops.
+Solo operator running a multi-product portfolio out of Vancouver, BC - plus a small web studio for client sites. I build, ship, and run automated systems end-to-end - strategy, code, Cloudflare infrastructure, native mobile, payments, content, analytics, customer ops.
 
 Most of what I work on makes money rather than stars, so my public footprint is selective. The repos below are showcases — architecture, decisions, and screenshots — without the moats (strategy logic, conversion copy, customer lists). Every live product is linked and pictured; the full portfolio page is at [tbot.trade/portfolio](https://tbot.trade/portfolio).
 
