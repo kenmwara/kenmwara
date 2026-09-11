@@ -23,7 +23,7 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 <a href="https://studio.tbot.trade"><img src="https://tbot.trade/portfolio/img/studio.jpg" width="330" alt="T BOT Studio — “A different approach to the web” beside a drifting point-cloud rendered live on canvas"></a>&nbsp;&nbsp;<a href="https://sacred-earth.pages.dev"><img src="https://tbot.trade/portfolio/img/sacred-earth.jpg" width="330" alt="Sacred Earth — the Descent: walked down from 4,321 metres, over a canvas point-cloud of Uganda"></a>
 
-**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, six products, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store, behind Cloudflare Access. The platform every other product reports into.
+**[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)** &mdash; one dashboard, every product, single Cloudflare-native data plane. D1 + Workers + Pages + Email Routing wired into an append-only event store, behind Cloudflare Access. The platform every other product reports into.
 
 <a href="https://github.com/kenmwara/unified-ops-dashboard"><img src="https://tbot.trade/portfolio/img/ops.jpg" width="440" alt="ops.tbot.trade — fleet health pills, flags, scheduler queue, one tile per product, per-project System health cards"></a>
 
