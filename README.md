@@ -27,6 +27,8 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 <a href="https://github.com/kenmwara/unified-ops-dashboard"><img src="https://tbot.trade/portfolio/img/ops.jpg" width="440" alt="ops.tbot.trade — fleet health pills, flags, scheduler queue, one tile per product, per-project System health cards"></a>
 
+**[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; intrusion detection, a SIEM on the same event store, and a SOAR console with response playbooks, guarding the live-money trading system. It catches a misused exchange key by reconciling the exchange's own fills against the bot's log, and a nightly red team from GitHub Actions attacks the system from outside with a mutation-tested harness, so a check that cannot fail never counts as a pass.
+
 **[tbot-client](https://github.com/kenmwara/tbot-client)** &mdash; open-source Python client that runs on subscriber machines and places orders against the subscriber's own broker (the original signal-feed model; the live pilot now runs a server-side copy-trade engine with encrypted per-subscriber API keys).
 
 **[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
