@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" role="img" aria-label="Ken Mwara — solo operator. Six products. One stack. Vancouver, BC.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" role="img" aria-label="Ken Mwara — solo operator. Multi-product. One stack. Vancouver, BC.">
   <defs>
     <!-- Background gradient: deep navy with a subtle right-side green glow, matching brand cover sheets -->
     <radialGradient id="bgGlow" cx="78%" cy="50%" r="62%">
@@ -141,7 +141,7 @@
           font-style="italic"
           font-weight="400"
           fill="#EFEBE0"
-          opacity="0.92">Solo operator. <tspan fill="#5BCFFF">Six products.</tspan> One stack.</text>
+          opacity="0.92">Solo operator. <tspan fill="#5BCFFF">Multi-product.</tspan> One stack.</text>
   </g>
 
   <!-- subtle scan-line / data-stream accent in the right negative space, balances the icon weight on the left -->
@@ -191,8 +191,8 @@
     </g>
 
     <!-- column 4: count -->
-    <text x="1420" y="412" fill="#5BCFFF" opacity="0.9" font-weight="500" text-anchor="end">PRODUCTS LIVE</text>
-    <text x="1420" y="434" fill="#F7F4ED" font-weight="700" text-anchor="end" font-size="13">06 / 06</text>
+    <text x="1420" y="412" fill="#5BCFFF" opacity="0.9" font-weight="500" text-anchor="end">SECURITY</text>
+    <text x="1420" y="434" fill="#F7F4ED" font-weight="700" text-anchor="end" font-size="13">SIEM · SOAR · RED TEAM</text>
   </g>
 
   <!-- subtle baseline label -->
