@@ -3,7 +3,7 @@
 
 ### Hi, I'm Ken 👋
 
-Solo operator running a multi-product portfolio out of Vancouver, BC — plus a small web studio for client sites. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, native mobile, payments, content, analytics, customer ops.
+I build systems that have to hold up at 3 AM, when nobody is watching: a portfolio of products out of Vancouver, BC, plus a small web studio for client sites. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, native mobile, payments, content, analytics, customer ops.
 
 Most of what I work on makes money rather than stars, so my public footprint is selective. The repos below are showcases — architecture, decisions, and screenshots — without the moats (strategy logic, conversion copy, customer lists). Every live product is linked and pictured; the full portfolio page is at [tbot.trade/portfolio](https://tbot.trade/portfolio).
 
@@ -86,4 +86,4 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 [LinkedIn](https://linkedin.com/in/kenmwara) &nbsp;·&nbsp; [X](https://x.com/Ken_Mwara) &nbsp;·&nbsp; [YouTube](https://youtube.com/@ZamaniHistory) &nbsp;·&nbsp; [Portfolio](https://tbot.trade/portfolio) &nbsp;·&nbsp; Vancouver, BC
 
-Open to interesting conversations — algo trading, LLM orchestration in production, native + edge app architecture, or how to run a dozen products as a solo operator without losing your mind.
+Open to interesting conversations — algo trading, LLM orchestration in production, native + edge app architecture, or what it takes to trust a system you are not watching.
