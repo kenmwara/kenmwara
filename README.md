@@ -57,6 +57,19 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ---
 
+### 🔐 Cybersecurity projects
+
+Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+
+**Vulnerability management**
+- **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
+
+**Threat hunting and security operations**
+- **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunting-scenario-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
+- **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (above): intrusion detection, a SIEM and a SOAR console with playbooks.
+
+---
+
 ### 🛠 What I work with
 
 | Domain | Tools |
