@@ -11,7 +11,7 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ### 🚀 What I'm operating
 
-**[T BOT](https://github.com/kenmwara/tbot)** &mdash; autonomous trading on prediction markets: one rules-based live strategy, 24/7, behind 17 logged risk gates and fifteen codified disciplines. Every lane is billed for its own exchange fees and Claude spend, and goes live only when its record earns it; forex, equities, crypto and macro integrations are built into the same engine. The books are rebuilt every night from the exchange's own records and must close to its reported cash within $5. Copy-trade subscriber pilot with Stripe billing. Rebuilt from git + the secrets vault to live trading in one evening after a total server loss (Sept 2026). Live demo: [tbot.trade/demo](https://tbot.trade/demo).
+**[T BOT](https://github.com/kenmwara/tbot)** &mdash; an autonomous trading platform: one rules-based live strategy, 24/7, behind 17 logged risk gates and fifteen codified disciplines. Every lane is billed for its own exchange fees and Claude spend, and goes live only when its record earns it; forex, equities, crypto and macro integrations are built into the same engine. The books are rebuilt every night from the exchange's own records and must close to its reported cash within $5. Copy-trade subscriber pilot with Stripe billing. Rebuilt from git + the secrets vault to live trading in one evening after a total server loss (Sept 2026). Live demo: [tbot.trade/demo](https://tbot.trade/demo).
 
 <a href="https://tbot.trade/demo"><img src="https://tbot.trade/portfolio/img/tbot-demo-card.png?v=2" width="300" alt="tbot.trade/demo: the real T BOT operator dashboard on synthetic data"></a>&nbsp;&nbsp;<a href="https://tbot.trade/demo"><img src="https://tbot.trade/portfolio/img/tbot-demo.jpg?v=20260926d" width="300" alt="T BOT Emergency controls: every lane with Go live or To paper and Restart and review; every action asks first"></a>
 
@@ -62,6 +62,7 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
 
 **Vulnerability management**
+- **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
 - **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
 
 **Threat hunting and security operations**
