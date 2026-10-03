@@ -86,6 +86,11 @@ Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines 
 
 ---
 
+### 🎓 Credentials
+
+- **[HarvardX Professional Certificate in Computer Science for Artificial Intelligence](https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/)** (2026): CS50x + CS50 AI
+- **[CS50's Introduction to Artificial Intelligence with Python](https://www.credly.com/badges/d78cd5c6-3834-4bf3-ae72-61b11cbfb356/public_url)**, edX badge on Credly (2026)
+
 ### 📍 Operating principles
 
 - **Surface isolation as primary architecture.** A failure on one product never cascades. A trading lane going down can't hurt Canadian PR sign-ups; Lean Body Blueprint can't drain Reinvention Blueprint's email sender reputation.
