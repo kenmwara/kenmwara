@@ -89,7 +89,7 @@ Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines 
 ### 🎓 Credentials
 
 - **[HarvardX Professional Certificate in Computer Science for Artificial Intelligence](https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/)** (2026): CS50x + CS50 AI
-- **[CS50's Introduction to Artificial Intelligence with Python](https://www.credly.com/badges/d78cd5c6-3834-4bf3-ae72-61b11cbfb356/public_url)**, edX badge on Credly (2026)
+- **[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/8c4ed10c-bec1-4bc1-bea1-a611b22489a0)**, Harvard CS50 certificate (2026, twelve projects)
 
 ### 📍 Operating principles
 
