@@ -66,6 +66,7 @@ Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines 
 - **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
 
 **Threat hunting and security operations**
+- **[Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian)** &mdash; a live community hunt on a compromised Linux web server: recon, a path-traversal read of the database config, a reused service-account password, and a root backdoor the automated defences flagged but never removed. Traced from raw logs in Azure Log Analytics with KQL, with a timeline, detection gaps and recommendations. 16 of 16 flags, on time.
 - **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunting-scenario-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
 - **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (above): intrusion detection, a SIEM and a SOAR console with playbooks.
 
