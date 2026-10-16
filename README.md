@@ -112,7 +112,7 @@ Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines 
 - **[CS50's Introduction to Cybersecurity](https://cs50.harvard.edu/certificates/02ad8b9a-e117-4d13-98c0-1a7f2d028974)**, Harvard CS50 certificate (2026, five assignments and a final project)
 - **[HarvardX Professional Certificate in Computer Science for Artificial Intelligence](https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/)** (2026): CS50x + CS50 AI
 - **[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/8c4ed10c-bec1-4bc1-bea1-a611b22489a0)**, Harvard CS50 certificate (2026, twelve projects)
-- **Ethical Hacking & Penetration Testing**, University of British Columbia (2025)
+- **[Ethical Hacking Certification Training](https://www.credential.net/718b441f-b5a6-4c99-8582-d68bd00dba11)**, UBC Extended Learning, University of British Columbia (2025, verified digital credential)
 - **B.S. Cybersecurity and Information Assurance**, Western Governors University: enrolled; starting January 2027, expected completion December 2027
 
 ### 📍 Operating principles
