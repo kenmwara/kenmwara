@@ -9,6 +9,17 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ---
 
+### 🧭 Start here
+
+| Area | Repos |
+|---|---|
+| **Products I run** | [T BOT](https://github.com/kenmwara/tbot) · [JobScout](https://github.com/kenmwara/jobscout-app) · [Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard) · [T BOT Security Operations](https://github.com/kenmwara/tbot-security) · [tbot-client](https://github.com/kenmwara/tbot-client) |
+| **Cybersecurity** | [Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight) · [Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian) · [Threat Hunt: Tor](https://github.com/kenmwara/threat-hunt-tor) · [Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program) · [Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation) ([all of them](https://github.com/kenmwara?tab=repositories&q=topic%3Acybersecurity)) |
+| **Content and funnels** | [Content Studio](https://github.com/kenmwara/maasai-explained-pipeline) · [Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery) · [The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint) · [Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint) · [n8n × Claude pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4) |
+| **Parked** | [OddsEdge](https://github.com/kenmwara/oddsedge) |
+
+---
+
 ### 🚀 What I'm operating
 
 **[T BOT](https://github.com/kenmwara/tbot)** &mdash; an autonomous trading platform: one rules-based live strategy, 24/7, behind 17 logged risk gates and fifteen codified disciplines. Every lane is billed for its own exchange fees and Claude spend, and goes live only when its record earns it; forex, equities, crypto and macro integrations are built into the same engine. The books are rebuilt every night from the exchange's own records and must close to its reported cash within $5. Copy-trade subscriber pilot with Stripe billing. Rebuilt from git + the secrets vault to live trading in one evening after a total server loss (Sept 2026). Live demo: [tbot.trade/demo](https://tbot.trade/demo).
@@ -37,9 +48,25 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 **[tbot-client](https://github.com/kenmwara/tbot-client)** &mdash; open-source Python client that runs on subscriber machines and places orders against the subscriber's own broker (the original signal-feed model; the live pilot now runs a server-side copy-trade engine with encrypted per-subscriber API keys).
 
-**[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
+---
 
-<a href="https://oddsedge.win"><img src="https://tbot.trade/portfolio/img/oddsedge.jpg" width="440" alt="oddsedge.win — an AI analyst for sports value betting: best price vs fair, the edge quantified, no invented picks"></a>
+### 🔐 Cybersecurity projects
+
+Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+
+**Vulnerability management**
+- **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
+- **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
+
+**Threat hunting and security operations**
+- **[Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight)** &mdash; a live community hunt on an Akira ransomware intrusion at a dental and insurance practice: a phishing ISO on one workstation, a UAC bypass, LSASS access, the user's own password reused over admin shares to the file server and the domain controller, MEGA exfiltration, and backdoors still beaconing thirteen hours after encryption. Traced in Microsoft Defender with KQL over Sysmon, with seven detection rules tested on the data and the change that closes each gap. 46 of 46 flags, on time.
+- **[Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian)** &mdash; a live community hunt on a compromised Linux web server: recon, a path-traversal read of the database config, a reused service-account password, and a root backdoor the automated defences flagged but never removed. Traced from raw logs in Azure Log Analytics with KQL, with a timeline, detection gaps and recommendations. 16 of 16 flags, on time.
+- **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunt-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
+- **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (above): intrusion detection, a SIEM and a SOAR console with playbooks.
+
+---
+
+### 🎬 Content and funnels
 
 **[Content Studio — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; a two-channel autonomous documentary studio: **[Zamani](https://youtube.com/@ZamaniHistory)** ("Africa, before you were told" — a film every Sunday) and **[The Fortune Files](https://youtube.com/@fortunefiles_HQ)** (the full arc of money & power from court records and filings — every Thursday). Evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, a measured multi-model supply chain (Gemini, Veo 3, Kie), and a pre-render validator that gates every film.
 
@@ -57,18 +84,11 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ---
 
-### 🔐 Cybersecurity projects
+### ⏸ Parked
 
-Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+**[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; *Parked September 2026.* AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
 
-**Vulnerability management**
-- **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
-- **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
-
-**Threat hunting and security operations**
-- **[Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian)** &mdash; a live community hunt on a compromised Linux web server: recon, a path-traversal read of the database config, a reused service-account password, and a root backdoor the automated defences flagged but never removed. Traced from raw logs in Azure Log Analytics with KQL, with a timeline, detection gaps and recommendations. 16 of 16 flags, on time.
-- **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunting-scenario-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
-- **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (above): intrusion detection, a SIEM and a SOAR console with playbooks.
+<a href="https://oddsedge.win"><img src="https://tbot.trade/portfolio/img/oddsedge.jpg" width="440" alt="oddsedge.win — an AI analyst for sports value betting: best price vs fair, the edge quantified, no invented picks"></a>
 
 ---
 
