@@ -14,7 +14,7 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 | Area | Repos |
 |---|---|
 | **Products I run** | [T BOT](https://github.com/kenmwara/tbot) · [JobScout](https://github.com/kenmwara/jobscout-app) · [Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard) · [T BOT Security Operations](https://github.com/kenmwara/tbot-security) · [tbot-client](https://github.com/kenmwara/tbot-client) |
-| **Cybersecurity** | [Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight) · [Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian) · [Threat Hunt: Tor](https://github.com/kenmwara/threat-hunt-tor) · [Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program) · [Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation) ([all of them](https://github.com/kenmwara?tab=repositories&q=topic%3Acybersecurity)) |
+| **Cybersecurity** | [Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab) · [Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight) · [Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian) · [Threat Hunt: Tor](https://github.com/kenmwara/threat-hunt-tor) · [Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program) · [Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation) ([all of them](https://github.com/kenmwara?tab=repositories&q=topic%3Acybersecurity)) |
 | **Content and funnels** | [Content Studio](https://github.com/kenmwara/maasai-explained-pipeline) · [Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery) · [The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint) · [Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint) · [n8n × Claude pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4) |
 | **Parked** | [OddsEdge](https://github.com/kenmwara/oddsedge) |
 
@@ -52,7 +52,10 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ### 🔐 Cybersecurity projects
 
-Hands-on security work in the LOG(N) Pacific Cyber Range, on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+Hands-on security work: an on-prem Active Directory domain of my own, and the LOG(N) Pacific Cyber Range on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+
+**Identity and Active Directory**
+- **[Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab)** &mdash; an on-prem domain on my own laptop with Hyper-V: a Windows Server 2025 domain controller (AD DS, DNS, DHCP, NAT), a domain-joined Windows 11 client, 999 users in department OUs, and five Group Policies, each proven on the client: lockout and password policy, Windows LAPS, a USB storage block, a Finance-only drive map and logon auditing. Includes the drive map that failed without a single error, and the security filtering that fixed it.
 
 **Vulnerability management**
 - **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
