@@ -116,6 +116,7 @@ Hands-on security work: an on-prem Active Directory domain of my own, and the LO
 
 ### 🎓 Credentials
 
+- **[HarvardX Professional Certificate in Computer Science for Cybersecurity](https://credentials.edx.org/credentials/89cc10e390654c709f8e9d902fffe419/)** (2026): CS50x + CS50's Introduction to Cybersecurity
 - **[CS50's Introduction to Cybersecurity](https://cs50.harvard.edu/certificates/02ad8b9a-e117-4d13-98c0-1a7f2d028974)**, Harvard CS50 certificate (2026, five assignments and a final project)
 - **[HarvardX Professional Certificate in Computer Science for Artificial Intelligence](https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/)** (2026): CS50x + CS50 AI
 - **[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/8c4ed10c-bec1-4bc1-bea1-a611b22489a0)**, Harvard CS50 certificate (2026, twelve projects)
