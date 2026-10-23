@@ -12,10 +12,10 @@
 I hunt threats, run identity and harden systems. And I keep live systems running at 3 AM, when nobody is watching.</p>
 
 <p align="center">
-  <a href="#hunt"><img src="https://img.shields.io/badge/Threat_hunting_%26_detection-C8102E?style=for-the-badge" alt="Threat hunting and detection"></a>
-  <a href="#identity"><img src="https://img.shields.io/badge/Identity_%26_AD-1f4ea6?style=for-the-badge" alt="Identity and Active Directory"></a>
-  <a href="#harden"><img src="https://img.shields.io/badge/Hardening-d9581a?style=for-the-badge" alt="Hardening and vulnerability management"></a>
-  <a href="#systems"><img src="https://img.shields.io/badge/Systems_I_run-6b2d93?style=for-the-badge" alt="Systems I run"></a>
+  <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Threat_hunting_%26_detection-C8102E?style=for-the-badge" alt="Threat hunting and detection"></a>
+  <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/Identity_%26_AD-1f4ea6?style=for-the-badge" alt="Identity and Active Directory"></a>
+  <a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://img.shields.io/badge/Hardening-d9581a?style=for-the-badge" alt="Hardening and vulnerability management"></a>
+  <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Systems_I_run-6b2d93?style=for-the-badge" alt="Systems I run"></a>
 </p>
 
 <p align="center"><sub>Every card opens the full write-up. Each one wears a Maasai shuka, and the cloth's colour is the kind of work.</sub></p>
