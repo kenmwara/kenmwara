@@ -3,9 +3,9 @@
 
 ### Hi, I'm Ken 👋
 
-I build systems that have to hold up at 3 AM, when nobody is watching: a portfolio of products out of Vancouver, BC, plus a small web studio for client sites. I build, ship, and run automated systems end-to-end — strategy, code, Cloudflare infrastructure, native mobile, payments, content, analytics, customer ops.
+I build and secure systems that have to hold up at 3 AM, when nobody is watching. I'm a Cybersecurity Engineer (Intern) with LOG(N) Pacific's Cyber Range: threat hunting with KQL in Microsoft Defender and Sentinel, Windows hardening against DISA STIGs, Tenable vulnerability management, and an on-prem Active Directory domain of my own. The same habits guard the live-money trading system I run, out of Vancouver, BC.
 
-Most of what I work on makes money rather than stars, so my public footprint is selective. The repos below are showcases — architecture, decisions, and screenshots — without the moats (strategy logic, conversion copy, customer lists). Every live product is linked and pictured; the full portfolio page is at [tbot.trade/portfolio](https://tbot.trade/portfolio).
+The repos below are write-ups: what I found, how I found it, and the evidence, plus the architecture of the systems I run (without strategy logic or customer data). The full portfolio is at [tbot.trade/portfolio](https://tbot.trade/portfolio).
 
 ---
 
@@ -13,18 +13,34 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 | Area | Repos |
 |---|---|
-| **Products I run** | [T BOT](https://github.com/kenmwara/tbot) · [JobScout](https://github.com/kenmwara/jobscout-app) · [Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard) · [T BOT Security Operations](https://github.com/kenmwara/tbot-security) · [tbot-client](https://github.com/kenmwara/tbot-client) |
 | **Cybersecurity** | [Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab) · [Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight) · [Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian) · [Threat Hunt: Tor](https://github.com/kenmwara/threat-hunt-tor) · [Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program) · [Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation) ([all of them](https://github.com/kenmwara?tab=repositories&q=topic%3Acybersecurity)) |
-| **Content and funnels** | [Content Studio](https://github.com/kenmwara/maasai-explained-pipeline) · [Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery) · [The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint) · [Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint) · [n8n × Claude pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4) |
-| **Parked** | [OddsEdge](https://github.com/kenmwara/oddsedge) |
+| **Systems I run** | [T BOT](https://github.com/kenmwara/tbot) · [JobScout](https://github.com/kenmwara/jobscout-app) · [Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard) · [T BOT Security Operations](https://github.com/kenmwara/tbot-security) · [tbot-client](https://github.com/kenmwara/tbot-client) |
+
+---
+
+### 🔐 Cybersecurity projects
+
+Hands-on security work: an on-prem Active Directory domain of my own, and the LOG(N) Pacific Cyber Range on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
+
+**Identity and Active Directory**
+
+<a href="https://github.com/kenmwara/active-directory-lab"><img src="https://raw.githubusercontent.com/kenmwara/active-directory-lab/main/images/readme-hero.png" width="720" alt="The rules in Group Policy Management; a Finance user gets the F: drive and an HR user does not; gpresult for the HR user shows Finance Drive Map, Filtering: Denied (Security)"></a>
+
+- **[Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab)** &mdash; an on-prem domain on my own laptop with Hyper-V: a Windows Server 2025 domain controller (AD DS, DNS, DHCP, NAT), a domain-joined Windows 11 client, 999 users in department OUs, and five Group Policies, each proven on the client: lockout and password policy, Windows LAPS, a USB storage block, a Finance-only drive map and logon auditing. Includes the drive map that failed without a single error, and the security filtering that fixed it.
+
+**Vulnerability management**
+- **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
+- **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
+
+**Threat hunting and security operations**
+- **[Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight)** &mdash; 46/46 flags, first to finish: a live community hunt on an Akira ransomware intrusion at a dental and insurance practice: a phishing ISO on one workstation, a UAC bypass, LSASS access, the user's own password reused over admin shares to the file server and the domain controller, MEGA exfiltration, and backdoors still beaconing thirteen hours after encryption. Traced in Microsoft Defender with KQL over Sysmon, with seven detection rules tested on the data and the change that closes each gap. 46 of 46 flags, on time.
+- **[Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian)** &mdash; 16/16 flags, full marks: a live community hunt on a compromised Linux web server: recon, a path-traversal read of the database config, a reused service-account password, and a root backdoor the automated defences flagged but never removed. Traced from raw logs in Azure Log Analytics with KQL, with a timeline, detection gaps and recommendations. 16 of 16 flags, on time.
+- **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunt-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
+- **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (below): intrusion detection, a SIEM and a SOAR console with playbooks.
 
 ---
 
 ### 🚀 What I'm operating
-
-**[Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab)** &mdash; an on-prem Active Directory domain I run on my own laptop with Hyper-V: a Windows Server 2025 domain controller (AD DS, DNS, DHCP and NAT), a domain-joined Windows 11 client, 999 users in department OUs, and five Group Policies, each proven on the client: account lockout and a 14-character password policy, Windows LAPS, a USB storage block, a Finance-only drive map and logon auditing (4624/4625). The drive map failed without a single error until security filtering replaced item-level targeting; the repo has the build guide, the commands and a screenshot for every step.
-
-<a href="https://github.com/kenmwara/active-directory-lab"><img src="https://raw.githubusercontent.com/kenmwara/active-directory-lab/main/images/readme-hero.png" width="720" alt="The rules in Group Policy Management; a Finance user gets the F: drive and an HR user does not; gpresult for the HR user shows Finance Drive Map, Filtering: Denied (Security)"></a>
 
 **[T BOT](https://github.com/kenmwara/tbot)** &mdash; an autonomous trading platform: one rules-based live strategy, 24/7, behind 17 logged risk gates and fifteen codified disciplines. Every lane is billed for its own exchange fees and Claude spend, and goes live only when its record earns it; forex, equities, crypto and macro integrations are built into the same engine. The books are rebuilt every night from the exchange's own records and must close to its reported cash within $5. Copy-trade subscriber pilot with Stripe billing. Rebuilt from git + the secrets vault to live trading in one evening after a total server loss (Sept 2026). Live demo: [tbot.trade/demo](https://tbot.trade/demo).
 
@@ -54,60 +70,16 @@ Most of what I work on makes money rather than stars, so my public footprint is 
 
 ---
 
-### 🔐 Cybersecurity projects
-
-Hands-on security work: an on-prem Active Directory domain of my own, and the LOG(N) Pacific Cyber Range on Azure lab machines with Microsoft Defender for Endpoint, Microsoft Sentinel, KQL and Tenable.
-
-**Identity and Active Directory**
-- **[Active Directory Home Lab](https://github.com/kenmwara/active-directory-lab)** &mdash; an on-prem domain on my own laptop with Hyper-V: a Windows Server 2025 domain controller (AD DS, DNS, DHCP, NAT), a domain-joined Windows 11 client, 999 users in department OUs, and five Group Policies, each proven on the client: lockout and password policy, Windows LAPS, a USB storage block, a Finance-only drive map and logon auditing. Includes the drive map that failed without a single error, and the security filtering that fixed it.
-
-**Vulnerability management**
-- **[Vulnerability Management Program](https://github.com/kenmwara/vulnerability-management-program)** &mdash; one full cycle on a Windows Server 2025 lab: a written policy, a credentialed Tenable baseline, four PowerShell remediation rounds each verified by rescan, and a documented accepted risk. 20 findings → 2 (−90 %).
-- **[Windows 11 STIG Remediation](https://github.com/kenmwara/windows-11-stig-remediation)** &mdash; ten DISA Windows 11 STIG findings remediated with PowerShell, each one verified failed → passed by a credentialed Tenable scan.
-
-**Threat hunting and security operations**
-- **[Threat Hunt: Harborlight](https://github.com/kenmwara/threat-hunt-harborlight)** &mdash; a live community hunt on an Akira ransomware intrusion at a dental and insurance practice: a phishing ISO on one workstation, a UAC bypass, LSASS access, the user's own password reused over admin shares to the file server and the domain controller, MEGA exfiltration, and backdoors still beaconing thirteen hours after encryption. Traced in Microsoft Defender with KQL over Sysmon, with seven detection rules tested on the data and the change that closes each gap. 46 of 46 flags, on time.
-- **[Threat Hunt: Meridian](https://github.com/kenmwara/threat-hunt-meridian)** &mdash; a live community hunt on a compromised Linux web server: recon, a path-traversal read of the database config, a reused service-account password, and a root backdoor the automated defences flagged but never removed. Traced from raw logs in Azure Log Analytics with KQL, with a timeline, detection gaps and recommendations. 16 of 16 flags, on time.
-- **[Threat Hunt: Unauthorized Tor Browser Usage](https://github.com/kenmwara/threat-hunt-tor)** &mdash; generated the activity on a lab VM, then hunted it back out of Defender for Endpoint telemetry with KQL and a Defender investigation package, and wrote it up as an analyst's report.
-- **[T BOT Security Operations](https://github.com/kenmwara/tbot-security)** &mdash; the detection and response stack guarding the live trading system (above): intrusion detection, a SIEM and a SOAR console with playbooks.
-
----
-
-### 🎬 Content and funnels
-
-**[Content Studio — AI film studio](https://github.com/kenmwara/maasai-explained-pipeline)** &mdash; a two-channel autonomous documentary studio: **[Zamani](https://youtube.com/@ZamaniHistory)** ("Africa, before you were told" — a film every Sunday) and **[The Fortune Files](https://youtube.com/@fortunefiles_HQ)** (the full arc of money & power from court records and filings — every Thursday). Evidence-driven research Brain, audio-first assembly, letter-by-letter frame proofreading, a measured multi-model supply chain (Gemini, Veo 3, Kie), and a pre-render validator that gates every film.
-
-<a href="https://youtube.com/@ZamaniHistory"><img src="https://tbot.trade/portfolio/img/zamani.jpg" width="300" alt="Zamani on YouTube — a new film every Sunday"></a>&nbsp;&nbsp;<a href="https://youtube.com/@fortunefiles_HQ"><img src="https://tbot.trade/portfolio/img/fortunefiles.jpg" width="300" alt="The Fortune Files on YouTube — a new file every Thursday"></a>
-
-**[Canadian PR Mastery](https://github.com/kenmwara/canadian-pr-mastery)** &mdash; $497 CAD info product helping skilled workers navigate the Canadian permanent residency process. Cloudflare Pages, Stripe, quiz-driven autoresponder Worker. Live: [canadianprmastery.com](https://canadianprmastery.com).
-
-**[The Reinvention Blueprint](https://github.com/kenmwara/reinvention-blueprint)** &mdash; info product on career and life reinvention. Cloudflare Pages + Resend sequencing + Workers-based lead capture. Live: [the-reinvention-blueprint.com](https://the-reinvention-blueprint.com).
-
-**[Lean Body Blueprint](https://github.com/kenmwara/lean-body-blueprint)** &mdash; $97 fitness funnel for 9-to-5 workers. Landing page, Stripe checkout, 5-episode video sequence, YouTube remarketing. Live: [theleanbodyblueprint.com](https://theleanbodyblueprint.com).
-
-<a href="https://canadianprmastery.com"><img src="https://tbot.trade/portfolio/img/cpr.jpg" width="200" alt="Canadian PR Mastery — episode 1 opener"></a>&nbsp;<a href="https://the-reinvention-blueprint.com"><img src="https://tbot.trade/portfolio/img/reinvention.jpg" width="200" alt="The Reinvention Blueprint — landing page"></a>&nbsp;<a href="https://theleanbodyblueprint.com"><img src="https://tbot.trade/portfolio/img/lbb.jpg" width="200" alt="Lean Body Blueprint — the 3-rule system landing page"></a>
-
-**[n8n × Claude Sonnet pipeline](https://github.com/kenmwara/n8n_anthropic_claudesonnet4)** &mdash; scheduled video-generation pipeline orchestrated through n8n with Anthropic Claude Sonnet 4 as the reasoning model.
-
----
-
-### ⏸ Parked
-
-**[OddsEdge](https://github.com/kenmwara/oddsedge)** &mdash; *Parked September 2026.* AI sports-intelligence subscription — "an AI analyst in your inbox every morning." A daily Claude-written brief delivered over email + Telegram, free-teaser → paid-full tiers, with an auto-graded public track record. Niche-agnostic engine (a new vertical is one JSON config + a cron line), Cloudflare-native, autonomous on a droplet, Whop-billed. Live: [oddsedge.win](https://oddsedge.win).
-
-<a href="https://oddsedge.win"><img src="https://tbot.trade/portfolio/img/oddsedge.jpg" width="440" alt="oddsedge.win — an AI analyst for sports value betting: best price vs fair, the edge quantified, no invented picks"></a>
-
----
-
 ### 🛠 What I work with
 
 | Domain | Tools |
 |---|---|
+| **Security** | Microsoft Defender for Endpoint, Microsoft Sentinel, KQL, Sysmon, Tenable, DISA STIGs, PowerShell, Active Directory + Group Policy, Wireshark, Nmap |
 | **Languages** | Python, TypeScript/JavaScript, Kotlin, Swift, Bash, SQL |
 | **Web** | FastAPI, Node, Cloudflare Workers, vanilla HTML/CSS/JS where the framework would be overkill |
 | **Mobile** | Kotlin + Jetpack Compose, Swift + SwiftUI, Capacitor, Codemagic CI |
 | **Cloud / Infra** | Cloudflare (Workers, Pages, D1, R2, KV, Email Routing, Access, Cache Rules, DNS), DigitalOcean, systemd, PM2 |
-| **AI / LLMs** | Anthropic Claude, OpenAI, Google Gemini, DeepSeek, n8n for orchestration |
+| **AI / LLMs** | Anthropic Claude, OpenAI, Google Gemini, DeepSeek |
 | **Brokers / Markets** | Prediction-market exchange API, OANDA v20, Interactive Brokers (ibeam) |
 | **Payments / Email** | Stripe Payment Links, Whop, Resend, Cloudflare Email Routing |
 | **Data** | Cloudflare D1 (SQLite at the edge), append-only JSONL with fcntl locks, no heavy ORM dependencies |
@@ -125,7 +97,7 @@ Hands-on security work: an on-prem Active Directory domain of my own, and the LO
 
 ### 📍 Operating principles
 
-- **Surface isolation as primary architecture.** A failure on one product never cascades. A trading lane going down can't hurt Canadian PR sign-ups; Lean Body Blueprint can't drain Reinvention Blueprint's email sender reputation.
+- **Surface isolation as primary architecture.** A failure on one system never cascades: a trading lane going down can't touch the job-search product or the ops dashboard.
 - **Append-only audit logs beat mutable state.** Forward-only debuggability wins over database snapshots almost every time. D1 + JSONL covers more ground than people assume.
 - **Cloudflare-native by default.** One vendor for DNS, edge, Workers, D1, R2, Pages, email routing, access control. Operational simplicity at portfolio scale beats best-of-breed sprawl.
 - **Numbers are labeled, never fabricated.** Measured from logs, modeled from stated assumptions, or absent — every public figure says which. The [T BOT demo page](https://tbot.trade/demo) publishes the actual gating chain and signal pipeline; opacity in a trading product is a red flag, not a feature.
@@ -135,6 +107,6 @@ Hands-on security work: an on-prem Active Directory domain of my own, and the LO
 
 ### 📫 Connect
 
-[LinkedIn](https://linkedin.com/in/kenmwara) &nbsp;·&nbsp; [X](https://x.com/Ken_Mwara) &nbsp;·&nbsp; [YouTube](https://youtube.com/@ZamaniHistory) &nbsp;·&nbsp; [Portfolio](https://tbot.trade/portfolio) &nbsp;·&nbsp; Vancouver, BC
+[LinkedIn](https://linkedin.com/in/kenmwara) &nbsp;·&nbsp; [X](https://x.com/Ken_Mwara) &nbsp;·&nbsp; [Portfolio](https://tbot.trade/portfolio) &nbsp;·&nbsp; Vancouver, BC
 
 Open to interesting conversations — algo trading, LLM orchestration in production, native + edge app architecture, or what it takes to trust a system you are not watching.
