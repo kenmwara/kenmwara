@@ -21,7 +21,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <p align="center"><sub>Every card opens the full write-up. Each one wears a Maasai shuka, and the cloth's colour is the kind of work.</sub></p>
 
 <!-- BEGIN section:hunt -->
-<a name="hunt"></a><a href="#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=4e819747" width="100%" alt="Threat hunting & detection"></a>
+<a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=4e819747" width="100%" alt="Threat hunting & detection"></a>
 
 <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-harborlight.png?v=4a116bc4" width="100%" alt="Harborlight: Akira ransomware at a dental practice, traced from a phishing ISO to the domain controller. 46/46 flags · first to finish."></a>
 
@@ -49,7 +49,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:hunt -->
 
 <!-- BEGIN section:identity -->
-<a name="identity"></a><a href="#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=f97da38e" width="100%" alt="Identity & Active Directory"></a>
+<a name="identity"></a><a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=f97da38e" width="100%" alt="Identity & Active Directory"></a>
 
 <a href="https://github.com/kenmwara/active-directory-lab"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-ad-lab.png?v=38db5fc6" width="100%" alt="Active Directory Lab: A Windows Server 2025 domain controller and a domain-joined Windows 11 client on Hyper-V, with five Group Policies proven on the client. 999 users in the domain."></a>
 
@@ -59,7 +59,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:identity -->
 
 <!-- BEGIN section:harden -->
-<a name="harden"></a><a href="#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=222f6c95" width="100%" alt="Hardening & vuln management"></a>
+<a name="harden"></a><a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=222f6c95" width="100%" alt="Hardening & vuln management"></a>
 
 <a href="https://github.com/kenmwara/vulnerability-management-program"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-vm-program.png?v=315afb3a" width="100%" alt="Vulnerability Management: A written policy, a credentialed baseline and four remediation rounds on a Windows Server 2025 lab, each verified by rescan. −90% 20 findings → 2."></a>
 
@@ -75,7 +75,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:harden -->
 
 <!-- BEGIN section:systems -->
-<a name="systems"></a><a href="#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=ee163623" width="100%" alt="Systems I run"></a>
+<a name="systems"></a><a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=ee163623" width="100%" alt="Systems I run"></a>
 
 <a href="https://github.com/kenmwara/tbot"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-tbot.png?v=cd39ed53" width="100%" alt="T BOT: An autonomous trading platform that has to earn every lane it runs, its books reconciled to the exchange every night. 17 logged risk gates."></a>
 
@@ -99,25 +99,25 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 **Also running:** [T BOT Web Studio](https://studio.tbot.trade) (small-business sites, shipped on Cloudflare Pages) · **S-Ryder** (the live operating app for a Nairobi delivery business) · [tbot-client](https://github.com/kenmwara/tbot-client) (open-source subscriber client) · the full portfolio at [tbot.trade/portfolio](https://tbot.trade/portfolio)
 
 <!-- BEGIN section:toolkit -->
-<a name="toolkit"></a><a href="#toolkit"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-toolkit.png?v=dfb2d5dc" width="100%" alt="Toolkit"></a>
+<a name="toolkit"></a><a href="https://github.com/kenmwara/kenmwara#toolkit"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-toolkit.png?v=dfb2d5dc" width="100%" alt="Toolkit"></a>
 
-**Hunt & detect** &nbsp; <a href="#hunt"><img src="https://img.shields.io/badge/Microsoft_Defender_for_Endpoint-C8102E?style=flat-square&labelColor=14202e" alt="Microsoft Defender for Endpoint"></a> <a href="#hunt"><img src="https://img.shields.io/badge/Microsoft_Sentinel-C8102E?style=flat-square&labelColor=14202e" alt="Microsoft Sentinel"></a> <a href="#hunt"><img src="https://img.shields.io/badge/KQL-C8102E?style=flat-square&labelColor=14202e" alt="KQL"></a> <a href="#hunt"><img src="https://img.shields.io/badge/Sysmon-C8102E?style=flat-square&labelColor=14202e" alt="Sysmon"></a> <a href="#hunt"><img src="https://img.shields.io/badge/Wireshark-C8102E?style=flat-square&labelColor=14202e" alt="Wireshark"></a> <a href="#hunt"><img src="https://img.shields.io/badge/Nmap-C8102E?style=flat-square&labelColor=14202e" alt="Nmap"></a>
+**Hunt & detect** &nbsp; <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Microsoft_Defender_for_Endpoint-C8102E?style=flat-square&labelColor=14202e" alt="Microsoft Defender for Endpoint"></a> <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Microsoft_Sentinel-C8102E?style=flat-square&labelColor=14202e" alt="Microsoft Sentinel"></a> <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/KQL-C8102E?style=flat-square&labelColor=14202e" alt="KQL"></a> <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Sysmon-C8102E?style=flat-square&labelColor=14202e" alt="Sysmon"></a> <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Wireshark-C8102E?style=flat-square&labelColor=14202e" alt="Wireshark"></a> <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Nmap-C8102E?style=flat-square&labelColor=14202e" alt="Nmap"></a>
 
-**Identity** &nbsp; <a href="#identity"><img src="https://img.shields.io/badge/Active_Directory-1f4ea6?style=flat-square&labelColor=14202e" alt="Active Directory"></a> <a href="#identity"><img src="https://img.shields.io/badge/Group_Policy-1f4ea6?style=flat-square&labelColor=14202e" alt="Group Policy"></a> <a href="#identity"><img src="https://img.shields.io/badge/Windows_LAPS-1f4ea6?style=flat-square&labelColor=14202e" alt="Windows LAPS"></a> <a href="#identity"><img src="https://img.shields.io/badge/PowerShell-1f4ea6?style=flat-square&labelColor=14202e" alt="PowerShell"></a>
+**Identity** &nbsp; <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/Active_Directory-1f4ea6?style=flat-square&labelColor=14202e" alt="Active Directory"></a> <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/Group_Policy-1f4ea6?style=flat-square&labelColor=14202e" alt="Group Policy"></a> <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/Windows_LAPS-1f4ea6?style=flat-square&labelColor=14202e" alt="Windows LAPS"></a> <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/PowerShell-1f4ea6?style=flat-square&labelColor=14202e" alt="PowerShell"></a>
 
-**Harden** &nbsp; <a href="#harden"><img src="https://img.shields.io/badge/Tenable-d9581a?style=flat-square&labelColor=14202e" alt="Tenable"></a> <a href="#harden"><img src="https://img.shields.io/badge/DISA_STIGs-d9581a?style=flat-square&labelColor=14202e" alt="DISA STIGs"></a>
+**Harden** &nbsp; <a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://img.shields.io/badge/Tenable-d9581a?style=flat-square&labelColor=14202e" alt="Tenable"></a> <a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://img.shields.io/badge/DISA_STIGs-d9581a?style=flat-square&labelColor=14202e" alt="DISA STIGs"></a>
 
-**Build & run** &nbsp; <a href="#systems"><img src="https://img.shields.io/badge/Python-6b2d93?style=flat-square&labelColor=14202e" alt="Python"></a> <a href="#systems"><img src="https://img.shields.io/badge/TypeScript-6b2d93?style=flat-square&labelColor=14202e" alt="TypeScript"></a> <a href="#systems"><img src="https://img.shields.io/badge/Kotlin-6b2d93?style=flat-square&labelColor=14202e" alt="Kotlin"></a> <a href="#systems"><img src="https://img.shields.io/badge/Swift-6b2d93?style=flat-square&labelColor=14202e" alt="Swift"></a> <a href="#systems"><img src="https://img.shields.io/badge/SQL-6b2d93?style=flat-square&labelColor=14202e" alt="SQL"></a> <a href="#systems"><img src="https://img.shields.io/badge/Cloudflare-6b2d93?style=flat-square&labelColor=14202e" alt="Cloudflare"></a> <a href="#systems"><img src="https://img.shields.io/badge/DigitalOcean-6b2d93?style=flat-square&labelColor=14202e" alt="DigitalOcean"></a> <a href="#systems"><img src="https://img.shields.io/badge/Claude_API-6b2d93?style=flat-square&labelColor=14202e" alt="Claude API"></a>
+**Build & run** &nbsp; <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Python-6b2d93?style=flat-square&labelColor=14202e" alt="Python"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/TypeScript-6b2d93?style=flat-square&labelColor=14202e" alt="TypeScript"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Kotlin-6b2d93?style=flat-square&labelColor=14202e" alt="Kotlin"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Swift-6b2d93?style=flat-square&labelColor=14202e" alt="Swift"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/SQL-6b2d93?style=flat-square&labelColor=14202e" alt="SQL"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Cloudflare-6b2d93?style=flat-square&labelColor=14202e" alt="Cloudflare"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/DigitalOcean-6b2d93?style=flat-square&labelColor=14202e" alt="DigitalOcean"></a> <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Claude_API-6b2d93?style=flat-square&labelColor=14202e" alt="Claude API"></a>
 <!-- END section:toolkit -->
 
 <!-- BEGIN section:credentials -->
-<a name="credentials"></a><a href="#credentials"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-credentials.png?v=671fe938" width="100%" alt="Credentials"></a>
+<a name="credentials"></a><a href="https://github.com/kenmwara/kenmwara#credentials"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-credentials.png?v=671fe938" width="100%" alt="Credentials"></a>
 
 <a href="https://credentials.edx.org/credentials/89cc10e390654c709f8e9d902fffe419/"><img src="https://img.shields.io/badge/HarvardX-CS_for_Cybersecurity_%C2%B7_2026-C8102E?style=flat-square&labelColor=14202e" alt="HarvardX: CS for Cybersecurity · 2026"></a> <a href="https://cs50.harvard.edu/certificates/02ad8b9a-e117-4d13-98c0-1a7f2d028974"><img src="https://img.shields.io/badge/Harvard_CS50-Cybersecurity_%C2%B7_2026-C8102E?style=flat-square&labelColor=14202e" alt="Harvard CS50: Cybersecurity · 2026"></a> <a href="https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/"><img src="https://img.shields.io/badge/HarvardX-CS_for_AI_%C2%B7_2026-C8102E?style=flat-square&labelColor=14202e" alt="HarvardX: CS for AI · 2026"></a> <a href="https://cs50.harvard.edu/certificates/8c4ed10c-bec1-4bc1-bea1-a611b22489a0"><img src="https://img.shields.io/badge/Harvard_CS50-AI_with_Python_%C2%B7_2026-C8102E?style=flat-square&labelColor=14202e" alt="Harvard CS50: AI with Python · 2026"></a> <a href="https://www.credential.net/718b441f-b5a6-4c99-8582-d68bd00dba11"><img src="https://img.shields.io/badge/UBC-Ethical_Hacking_%C2%B7_2025-C8102E?style=flat-square&labelColor=14202e" alt="UBC: Ethical Hacking · 2025"></a> <a href="https://kenmwara.com/timetable/"><img src="https://img.shields.io/badge/WGU-B.S._Cybersecurity_%C2%B7_enrolled%2C_starts_Jan_2027-1f6f8b?style=flat-square&labelColor=14202e" alt="WGU: B.S. Cybersecurity · enrolled, starts Jan 2027"></a>
 <!-- END section:credentials -->
 
 <!-- BEGIN section:principles -->
-<a name="principles"></a><a href="#principles"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-principles.png?v=21a212bc" width="100%" alt="How I work"></a>
+<a name="principles"></a><a href="https://github.com/kenmwara/kenmwara#principles"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-principles.png?v=21a212bc" width="100%" alt="How I work"></a>
 <!-- END section:principles -->
 
 - **Isolate every surface.** One system failing never takes another down.
