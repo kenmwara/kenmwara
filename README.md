@@ -23,11 +23,11 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- BEGIN section:hunt -->
 <a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=21a079f8" width="100%" alt="Threat hunting & detection"></a>
 
-<a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-harborlight.png?v=8570d352" width="100%" alt="Harborlight: Akira ransomware at a dental practice, traced from a phishing ISO to the domain controller. 46/46 flags · first to finish."></a>
+<a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-harborlight.png?v=5a7f1e4b" width="100%" alt="Harborlight: Akira ransomware at a dental practice, traced from a phishing ISO to the domain controller. 46/46 flags · 4,060 / 4,190."></a>
 
 <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://img.shields.io/badge/Akira_ransomware-A8323D?style=flat-square&labelColor=14202e" alt="Akira ransomware"></a> <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://img.shields.io/badge/KQL-A8323D?style=flat-square&labelColor=14202e" alt="KQL"></a> <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://img.shields.io/badge/Sysmon-A8323D?style=flat-square&labelColor=14202e" alt="Sysmon"></a> <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://img.shields.io/badge/Microsoft_Defender-A8323D?style=flat-square&labelColor=14202e" alt="Microsoft Defender"></a> <a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://img.shields.io/badge/11_detections_replayed-A8323D?style=flat-square&labelColor=14202e" alt="11 detections replayed"></a>
 
-**46/46 flags · first to finish** · [Read the report →](https://github.com/kenmwara/threat-hunt-harborlight)
+**46/46 flags · 4,060 / 4,190, on time** · [Read the report →](https://github.com/kenmwara/threat-hunt-harborlight)
 
 <a href="https://github.com/kenmwara/threat-hunt-echo-leaks"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/card-echo-leaks.png?v=4c79009b" width="100%" alt="Echo Leaks: A prompt-injection attack on Microsoft 365 Copilot that read 13 confidential files and tried to carry them out. 17/17 flags · 1,600 / 1,600."></a>
 
