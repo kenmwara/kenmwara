@@ -9,73 +9,76 @@
 <!-- END hero -->
 
 <p align="center"><b>Cybersecurity Engineer (Intern) at LOG(N) Pacific's Cyber Range · Vancouver, BC</b><br>
-I hunt threats, run identity and harden systems. And I keep live systems running at 3 AM, when nobody is watching.</p>
+I trace attacks through security logs, lock down the systems that control who can log in, and keep live systems running at 3 AM, when nobody is watching.</p>
 
 <p align="center">
   <a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://img.shields.io/badge/AI_agent_security-1f6f8b?style=for-the-badge" alt="AI agent security"></a> <b>→</b>
-  <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Threat_hunting_%26_detection-A8323D?style=for-the-badge" alt="Threat hunting and detection"></a> <b>→</b>
+  <a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://img.shields.io/badge/Threat_hunts-A8323D?style=for-the-badge" alt="Threat hunts"></a> <b>→</b>
   <a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://img.shields.io/badge/Identity_%26_AD-2F4C80?style=for-the-badge" alt="Identity and Active Directory"></a> <b>→</b>
-  <a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://img.shields.io/badge/Hardening-B4623C?style=for-the-badge" alt="Hardening and vulnerability management"></a> <b>→</b>
+  <a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://img.shields.io/badge/Hardening-B4623C?style=for-the-badge" alt="Hardening and fixing weaknesses"></a> <b>→</b>
   <a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://img.shields.io/badge/Systems_I_run-5D3D79?style=for-the-badge" alt="Systems I run"></a>
 </p>
 
 <p align="center"><sub>One path through the work: secure the AI, hunt what gets in, build and harden what it targets, then run it live. Every project name opens its full report.</sub></p>
 
 <!-- BEGIN section:ai -->
-<a name="ai"></a><a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-ai.png?v=c11124e747" width="100%" alt="AI agent security"></a>
+<a name="ai"></a><a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-ai.png?v=2a84efce3e" width="100%" alt="AI agent security"></a>
 
-<sub>Start here. AI agents now hold real permissions, so each test asks which control stops one when it is manipulated.</sub>
+<sub>Start here. AI helpers now get real access to company systems, so each test asks what stops one when someone tries to trick it.</sub>
 
 | Project | What it is | Result |
 |---|---|---|
-| **[Securing an AI Agent in AD](https://github.com/kenmwara/securing-ai-agents-ad)**<br><sub>Prompt injection · MCP · Active Directory · OWASP LLM · Agentic</sub> | An AI helpdesk agent with delegated rights in Active Directory, tested with prompt injection and misuse to find which control contains it | 13 attack tests · injection never moved the agent · one open gap, v2 in progress · [Read the assessment →](https://github.com/kenmwara/securing-ai-agents-ad) |
-| **[Echo Leaks](https://github.com/kenmwara/threat-hunt-echo-leaks)**<br><sub>Prompt injection · Microsoft 365 Copilot · KQL · Entra ID</sub> | A prompt-injection attack on Microsoft 365 Copilot that read 13 confidential files and tried to carry them out | 17/17 flags · a perfect 1,600/1,600, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-echo-leaks) |
+| **[Securing an AI Agent in AD](https://github.com/kenmwara/securing-ai-agents-ad)**<br><sub>Prompt injection · Claude Code · Active Directory · OWASP AI risks</sub> | An AI helpdesk assistant allowed to manage user accounts, tested 13 ways to see what stops it when someone tries to trick it | 13 attack tests · hidden commands never fooled it · one gap open, fix in progress · [Read the assessment →](https://github.com/kenmwara/securing-ai-agents-ad) |
+| **[Echo Leaks](https://github.com/kenmwara/threat-hunt-echo-leaks)**<br><sub>Prompt injection · Microsoft 365 Copilot · KQL · Entra ID</sub> | Hidden instructions in a Word file made Microsoft 365 Copilot read 13 confidential files and try to send them out | All 17 questions answered · a perfect 1,600, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-echo-leaks) |
 <!-- END section:ai -->
 
 <!-- BEGIN section:hunt -->
-<a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=d5a1a65253" width="100%" alt="Threat hunting & detection"></a>
+<a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=a588a0f858" width="100%" alt="Threat hunts"></a>
 
-<sub>When something gets through: each hunt rebuilds the attack from Defender and Sentinel telemetry, start to finish.</sub>
+<sub>Each hunt traces an attack through Microsoft's security logs, from the first sign to the last move, and ends with a written incident report. <a href="https://github.com/kenmwara/threat-hunts">All four on one page →</a></sub>
 
 | Project | What it is | Result |
 |---|---|---|
-| **[Harborlight](https://github.com/kenmwara/threat-hunt-harborlight)**<br><sub>Akira ransomware · KQL · Sysmon · Microsoft Defender</sub> | Akira ransomware at a dental practice, traced from a phishing ISO to the domain controller | 46/46 flags · 4,060 / 4,190, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-harborlight) |
-| **[Meridian](https://github.com/kenmwara/threat-hunt-meridian)**<br><sub>Linux · Apache · PHP · KQL · Azure Log Analytics · Path traversal</sub> | A compromised Linux web server: path traversal, a reused service-account password and a root backdoor | 16/16 flags · 1,675/1,675, full marks · [Read the report →](https://github.com/kenmwara/threat-hunt-meridian) |
-| **[Unauthorized Tor](https://github.com/kenmwara/threat-hunt-tor)**<br><sub>Defender for Endpoint · KQL · Investigation package · MITRE ATT&CK</sub> | A portable Tor Browser on a lab endpoint, hunted back out of Defender telemetry and an investigation package | Tor caught on a lab endpoint · 3 relays traced on port 443 · [Read the report →](https://github.com/kenmwara/threat-hunt-tor) |
-| **[T BOT Security Ops](https://github.com/kenmwara/tbot-security)**<br><sub>SIEM · SOAR playbooks · fail2ban · UFW · Cloudflare Workers</sub> | Intrusion detection, a SIEM and a SOAR console with playbooks, guarding a live-money trading system | Live · intrusion detection, SIEM and SOAR · red-teamed nightly · [See the stack →](https://github.com/kenmwara/tbot-security) |
+| **[Harborlight](https://github.com/kenmwara/threat-hunt-harborlight)**<br><sub>Ransomware · KQL · Sysmon · Microsoft Defender</sub> | Akira ransomware at a dental practice, traced from one phishing download to the server that controls every login | All 46 questions answered · 4,060 of 4,190 points, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-harborlight) |
+| **[Echo Leaks](https://github.com/kenmwara/threat-hunt-echo-leaks)**<br><sub>Prompt injection · Microsoft 365 Copilot · KQL · Entra ID</sub> | Hidden instructions in a Word file made Microsoft 365 Copilot read 13 confidential files and try to send them out | All 17 questions answered · a perfect 1,600, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-echo-leaks) |
+| **[Meridian](https://github.com/kenmwara/threat-hunt-meridian)**<br><sub>Linux · Apache · PHP · KQL · Azure Log Analytics · Incident report</sub> | A hacked Linux web server: a website flaw leaked a password, the attacker took full control, and a backdoor was still running at the end | All 16 questions answered · full marks, on time · [Read the report →](https://github.com/kenmwara/threat-hunt-meridian) |
+| **[Unauthorized Tor](https://github.com/kenmwara/threat-hunt-tor)**<br><sub>Defender for Endpoint · KQL · Evidence package · MITRE ATT&CK</sub> | Hidden web browsing on a test computer, traced through Microsoft Defender's logs and an evidence package | Tor caught on a test computer · its traffic traced through 3 hiding hops · [Read the report →](https://github.com/kenmwara/threat-hunt-tor) |
+
+<p><a href="https://github.com/kenmwara/threat-hunt-harborlight"><img src="https://raw.githubusercontent.com/kenmwara/threat-hunt-harborlight/main/images/scorecard.png" width="49%" alt="threat-hunt-harborlight key takeaways"></a> <a href="https://github.com/kenmwara/threat-hunt-echo-leaks"><img src="https://raw.githubusercontent.com/kenmwara/threat-hunt-echo-leaks/main/images/scorecard.png" width="49%" alt="threat-hunt-echo-leaks key takeaways"></a> <a href="https://github.com/kenmwara/threat-hunt-meridian"><img src="https://raw.githubusercontent.com/kenmwara/threat-hunt-meridian/main/images/scorecard.png" width="49%" alt="threat-hunt-meridian key takeaways"></a> <a href="https://github.com/kenmwara/threat-hunt-tor"><img src="https://raw.githubusercontent.com/kenmwara/threat-hunt-tor/main/images/scorecard.png" width="49%" alt="threat-hunt-tor key takeaways"></a></p>
 <!-- END section:hunt -->
 
 <!-- BEGIN section:identity -->
-<a name="identity"></a><a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=b307454c43" width="100%" alt="Identity & Active Directory"></a>
+<a name="identity"></a><a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=d285923821" width="100%" alt="Identity & Active Directory"></a>
 
-<sub>What attackers go after: a Windows domain built from scratch and locked down with Group Policy.</sub>
+<sub>The systems attackers go after: a company network built from scratch and locked down with company-wide rules.</sub>
 
 | Project | What it is | Result |
 |---|---|---|
-| **[Active Directory Lab](https://github.com/kenmwara/active-directory-lab)**<br><sub>Windows Server 2025 · AD DS · DNS · DHCP · Group Policy · Windows LAPS</sub> | A Windows Server 2025 domain controller and a domain-joined Windows 11 client on Hyper-V, with five Group Policies proven on the client | 999 users · five Group Policies, each proven on the client · [See the lab →](https://github.com/kenmwara/active-directory-lab) |
+| **[Active Directory Lab](https://github.com/kenmwara/active-directory-lab)**<br><sub>Windows Server 2025 · Active Directory · Group Policy · Windows LAPS</sub> | A small company network built from scratch: a Windows server managing 999 users, a work PC, and five company rules, each tested | 999 users · five company rules, each tested on the work PC · [See the lab →](https://github.com/kenmwara/active-directory-lab) |
 <!-- END section:identity -->
 
 <!-- BEGIN section:harden -->
-<a name="harden"></a><a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=a178ff3b8a" width="100%" alt="Hardening & vuln management"></a>
+<a name="harden"></a><a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=159587e7b4" width="100%" alt="Hardening & fixing weaknesses"></a>
 
-<sub>Closing the gaps before anyone finds them: every fix verified by a fresh scan.</sub>
+<sub>Closing the gaps before anyone finds them: every fix proven by a fresh scan.</sub>
 
 | Project | What it is | Result |
 |---|---|---|
-| **[Vulnerability Management](https://github.com/kenmwara/vulnerability-management-program)**<br><sub>Tenable · Credentialed scans · PowerShell · Windows Server 2025</sub> | A written policy, a credentialed baseline and four remediation rounds on a Windows Server 2025 lab, each verified by rescan | 20 findings → 2 (−90 %) · Critical and High to zero · [See the work →](https://github.com/kenmwara/vulnerability-management-program) |
-| **[Windows 11 STIG](https://github.com/kenmwara/windows-11-stig-remediation)**<br><sub>DISA STIG · PowerShell · Tenable compliance audit · Windows 11 25H2</sub> | Ten DISA STIG findings on a Windows 11 lab VM, each remediated with PowerShell and verified by a credentialed compliance scan | 10 of 10 STIG findings · failed → passed · [See the work →](https://github.com/kenmwara/windows-11-stig-remediation) |
+| **[Vulnerability Management](https://github.com/kenmwara/vulnerability-management-program)**<br><sub>Tenable · Scans with a login · PowerShell · Windows Server 2025</sub> | A Windows server taken from 20 security weaknesses to 2 in four rounds of fixes, each proven by a fresh scan | 20 weaknesses → 2 (−90 %) · nothing critical or high left · [See the work →](https://github.com/kenmwara/vulnerability-management-program) |
+| **[Windows 11 STIG](https://github.com/kenmwara/windows-11-stig-remediation)**<br><sub>DISA STIG · PowerShell · Tenable compliance scan · Windows 11</sub> | Ten Windows 11 security settings that failed the US Defense Department's checklist, each fixed with a script and passed on a fresh scan | 10 of 10 settings fixed · failed → passed · [See the work →](https://github.com/kenmwara/windows-11-stig-remediation) |
 <!-- END section:harden -->
 
 <!-- BEGIN section:systems -->
-<a name="systems"></a><a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=6b0c144e74" width="100%" alt="Systems I run"></a>
+<a name="systems"></a><a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=7543386c2c" width="100%" alt="Systems I run"></a>
 
-<sub>The same discipline on live systems: production platforms I run and monitor every day.</sub>
+<sub>The same discipline on live systems: production platforms I run and watch every day.</sub>
 
 | Project | What it is | Result |
 |---|---|---|
-| **[T BOT](https://github.com/kenmwara/tbot)**<br><sub>Python · Risk gates · Nightly reconciliation · Cloudflare</sub> | An autonomous trading platform that has to earn every lane it runs, its books reconciled to the exchange every night | Live money, 24/7 · 17 logged risk gates · books closed to the exchange nightly · [See the system →](https://github.com/kenmwara/tbot) |
-| **[JobScout](https://github.com/kenmwara/jobscout-app)**<br><sub>Claude · Kotlin · Compose · Swift · SwiftUI · Cloudflare Workers</sub> | Real postings scored live by Claude with the reasoning shown, and native Android and iOS clients on one guarded API | Live at jobscout.page · web, Android and iOS · [See the system →](https://github.com/kenmwara/jobscout-app) |
-| **[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)**<br><sub>Cloudflare D1 · Workers · Pages · Access</sub> | One dashboard every product reports into: an append-only event store on Cloudflare D1, Workers and Pages | Live · every product reports into one event store · [See the system →](https://github.com/kenmwara/unified-ops-dashboard) |
+| **[T BOT](https://github.com/kenmwara/tbot)**<br><sub>Python · Safety checks · Nightly book check · Cloudflare</sub> | A trading robot that trades real money on its own, every trade checked 17 ways, its books matched to the exchange every night | Real money, 24/7 · 17 safety checks on every trade · books matched to the exchange nightly · [See the system →](https://github.com/kenmwara/tbot) |
+| **[T BOT Security Ops](https://github.com/kenmwara/tbot-security)**<br><sub>Intrusion detection · Security log (SIEM) · One-click responses · Cloudflare</sub> | The security system that watches a live trading robot overnight: it spots break-in attempts, keeps one record, and responds in seconds | Live · no logins but the owner's since Sep 2026 · attacked by its own test every night · [See the stack →](https://github.com/kenmwara/tbot-security) |
+| **[JobScout](https://github.com/kenmwara/jobscout-app)**<br><sub>Claude · Kotlin · Compose · Swift · SwiftUI · Cloudflare Workers</sub> | Real job posts scored by AI against a résumé, with its reasons shown, on the web, Android and iPhone | Live at jobscout.page · web, Android and iPhone · [See the system →](https://github.com/kenmwara/jobscout-app) |
+| **[Unified Ops Dashboard](https://github.com/kenmwara/unified-ops-dashboard)**<br><sub>Cloudflare D1 · Workers · Pages · Access</sub> | One private dashboard where every product reports its sales, sign-ups and errors, kept in a record nothing can edit | Live · every product reports into one dashboard · [See the system →](https://github.com/kenmwara/unified-ops-dashboard) |
 <!-- END section:systems -->
 
 **Also running:** [T BOT Web Studio](https://studio.tbot.trade) (small-business sites, shipped on Cloudflare Pages) · **S-Ryder** (the live operating app for a Nairobi delivery business) · [tbot-client](https://github.com/kenmwara/tbot-client) (open-source subscriber client) · the full portfolio at [tbot.trade/portfolio](https://tbot.trade/portfolio)
@@ -104,8 +107,8 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <a name="principles"></a><a href="https://github.com/kenmwara/kenmwara#principles"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-principles.png?v=8d678e6cd2" width="100%" alt="How I work"></a>
 <!-- END section:principles -->
 
-- **Isolate every surface.** One system failing never takes another down.
-- **Keep append-only logs.** History you can replay beats state you can't.
+- **Keep systems apart.** One failing never takes another down.
+- **Never overwrite the record.** A history you can check beats a total you can't.
 - **Label every number.** Measured, modeled or absent. Never made up.
 - **Ship small, then watch.** A week of watching before the next thing.
 
