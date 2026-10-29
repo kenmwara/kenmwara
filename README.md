@@ -5,7 +5,7 @@
      details live behind the "→" links, never on the profile. -->
 
 <!-- BEGIN hero -->
-<a href="https://linkedin.com/in/kenmwara"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/hero.png?v=66394861" width="100%" alt="Ken Kariuki. Security operations, Vancouver, BC: threat hunting, Active Directory, detection engineering."></a>
+<a href="https://linkedin.com/in/kenmwara"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/hero.png?v=66394861f7" width="100%" alt="Ken Kariuki. Security operations, Vancouver, BC: threat hunting, Active Directory, detection engineering."></a>
 <!-- END hero -->
 
 <p align="center"><b>Cybersecurity Engineer (Intern) at LOG(N) Pacific's Cyber Range · Vancouver, BC</b><br>
@@ -22,7 +22,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <p align="center"><sub>One path through the work: secure the AI, hunt what gets in, build and harden what it targets, then run it live. Every project name opens its full report.</sub></p>
 
 <!-- BEGIN section:ai -->
-<a name="ai"></a><a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-ai.png?v=c11124e7" width="100%" alt="AI agent security"></a>
+<a name="ai"></a><a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-ai.png?v=c11124e747" width="100%" alt="AI agent security"></a>
 
 <sub>Start here. AI agents now hold real permissions, so each test asks which control stops one when it is manipulated.</sub>
 
@@ -33,7 +33,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:ai -->
 
 <!-- BEGIN section:hunt -->
-<a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=d5a1a652" width="100%" alt="Threat hunting & detection"></a>
+<a name="hunt"></a><a href="https://github.com/kenmwara/kenmwara#hunt"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-hunt.png?v=d5a1a65253" width="100%" alt="Threat hunting & detection"></a>
 
 <sub>When something gets through: each hunt rebuilds the attack from Defender and Sentinel telemetry, start to finish.</sub>
 
@@ -46,7 +46,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:hunt -->
 
 <!-- BEGIN section:identity -->
-<a name="identity"></a><a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=b307454c" width="100%" alt="Identity & Active Directory"></a>
+<a name="identity"></a><a href="https://github.com/kenmwara/kenmwara#identity"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-identity.png?v=b307454c43" width="100%" alt="Identity & Active Directory"></a>
 
 <sub>What attackers go after: a Windows domain built from scratch and locked down with Group Policy.</sub>
 
@@ -56,7 +56,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:identity -->
 
 <!-- BEGIN section:harden -->
-<a name="harden"></a><a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=a178ff3b" width="100%" alt="Hardening & vuln management"></a>
+<a name="harden"></a><a href="https://github.com/kenmwara/kenmwara#harden"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-harden.png?v=a178ff3b8a" width="100%" alt="Hardening & vuln management"></a>
 
 <sub>Closing the gaps before anyone finds them: every fix verified by a fresh scan.</sub>
 
@@ -67,7 +67,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:harden -->
 
 <!-- BEGIN section:systems -->
-<a name="systems"></a><a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=6b0c144e" width="100%" alt="Systems I run"></a>
+<a name="systems"></a><a href="https://github.com/kenmwara/kenmwara#systems"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-systems.png?v=6b0c144e74" width="100%" alt="Systems I run"></a>
 
 <sub>The same discipline on live systems: production platforms I run and monitor every day.</sub>
 
@@ -81,7 +81,7 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 **Also running:** [T BOT Web Studio](https://studio.tbot.trade) (small-business sites, shipped on Cloudflare Pages) · **S-Ryder** (the live operating app for a Nairobi delivery business) · [tbot-client](https://github.com/kenmwara/tbot-client) (open-source subscriber client) · the full portfolio at [tbot.trade/portfolio](https://tbot.trade/portfolio)
 
 <!-- BEGIN section:toolkit -->
-<a name="toolkit"></a><a href="https://github.com/kenmwara/kenmwara#toolkit"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-toolkit.png?v=af67a51a" width="100%" alt="Toolkit"></a>
+<a name="toolkit"></a><a href="https://github.com/kenmwara/kenmwara#toolkit"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-toolkit.png?v=af67a51ac8" width="100%" alt="Toolkit"></a>
 
 **AI security** &nbsp; <a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://img.shields.io/badge/MCP-1f6f8b?style=flat-square&labelColor=14202e" alt="MCP"></a> <a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://img.shields.io/badge/Claude_Code-1f6f8b?style=flat-square&labelColor=14202e" alt="Claude Code"></a> <a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://img.shields.io/badge/OWASP_LLM_Top_10-1f6f8b?style=flat-square&labelColor=14202e" alt="OWASP LLM Top 10"></a> <a href="https://github.com/kenmwara/kenmwara#ai"><img src="https://img.shields.io/badge/MITRE_ATLAS-1f6f8b?style=flat-square&labelColor=14202e" alt="MITRE ATLAS"></a>
 
@@ -95,13 +95,13 @@ I hunt threats, run identity and harden systems. And I keep live systems running
 <!-- END section:toolkit -->
 
 <!-- BEGIN section:credentials -->
-<a name="credentials"></a><a href="https://github.com/kenmwara/kenmwara#credentials"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-credentials.png?v=118c6f21" width="100%" alt="Credentials"></a>
+<a name="credentials"></a><a href="https://github.com/kenmwara/kenmwara#credentials"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-credentials.png?v=118c6f219f" width="100%" alt="Credentials"></a>
 
 <a href="https://credentials.edx.org/credentials/89cc10e390654c709f8e9d902fffe419/"><img src="https://img.shields.io/badge/HarvardX-CS_for_Cybersecurity_%C2%B7_2026-A8323D?style=flat-square&labelColor=14202e" alt="HarvardX: CS for Cybersecurity · 2026"></a> <a href="https://cs50.harvard.edu/certificates/02ad8b9a-e117-4d13-98c0-1a7f2d028974"><img src="https://img.shields.io/badge/Harvard_CS50-Cybersecurity_%C2%B7_2026-A8323D?style=flat-square&labelColor=14202e" alt="Harvard CS50: Cybersecurity · 2026"></a> <a href="https://credentials.edx.org/credentials/c9bb24239a3044629308c0dde14aa3ca/"><img src="https://img.shields.io/badge/HarvardX-CS_for_AI_%C2%B7_2026-A8323D?style=flat-square&labelColor=14202e" alt="HarvardX: CS for AI · 2026"></a> <a href="https://cs50.harvard.edu/certificates/8c4ed10c-bec1-4bc1-bea1-a611b22489a0"><img src="https://img.shields.io/badge/Harvard_CS50-AI_with_Python_%C2%B7_2026-A8323D?style=flat-square&labelColor=14202e" alt="Harvard CS50: AI with Python · 2026"></a> <a href="https://www.credential.net/718b441f-b5a6-4c99-8582-d68bd00dba11"><img src="https://img.shields.io/badge/UBC-Ethical_Hacking_%C2%B7_2025-A8323D?style=flat-square&labelColor=14202e" alt="UBC: Ethical Hacking · 2025"></a> <a href="https://kenmwara.com/timetable/"><img src="https://img.shields.io/badge/WGU-B.S._Cybersecurity_%C2%B7_enrolled%2C_starts_Jan_2027-1f6f8b?style=flat-square&labelColor=14202e" alt="WGU: B.S. Cybersecurity · enrolled, starts Jan 2027"></a>
 <!-- END section:credentials -->
 
 <!-- BEGIN section:principles -->
-<a name="principles"></a><a href="https://github.com/kenmwara/kenmwara#principles"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-principles.png?v=8d678e6c" width="100%" alt="How I work"></a>
+<a name="principles"></a><a href="https://github.com/kenmwara/kenmwara#principles"><img src="https://raw.githubusercontent.com/kenmwara/kenmwara/main/assets/brand/section-principles.png?v=8d678e6cd2" width="100%" alt="How I work"></a>
 <!-- END section:principles -->
 
 - **Isolate every surface.** One system failing never takes another down.
